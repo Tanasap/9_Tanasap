@@ -1,0 +1,9 @@
+docker -v 
+docker run hello-world
+docker run busybox ping google.com
+docker  run -d -p 8700:80 nginx
+docker system df
+docker  run -p 8800:80 nginx
+docker run nginx
+docker stop 7f2632f42a8f
+docker image rm busybox
